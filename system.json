@@ -1,0 +1,38 @@
+{
+  "id": "forge",
+  "title": "Forge: Out of Chaos",
+  "description": "A fantasy role playing game by Basements Games Unlimited LLC",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": 12,
+    "verified": 12
+  },
+  "authors": [
+    {
+      "name": "Cary Wolff"
+    }
+  ],
+  "esmodules": [
+    "module/main.mjs"
+  ],
+  "styles": [
+    "styles/styles.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "initiative": "1d6",
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": "resources.power",
+  "url": "https://github.com/Caryyon/forge-fvtt",
+  "manifest": "https://github.com/Caryyon/forge-fvtt/system.json"
+}
